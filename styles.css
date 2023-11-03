@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(200, 200, 200);
+}
+.navlink{
+    display: flex;
+    margin-bottom: 50px;
+    background-color:rgb(41, 132, 153);
+    
+    align-items: center;
+}
+
+.x-red{
+    color: red;
+}
+.navlink a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.nav{
+    margin-left: 700px;
+}
+
+.welcome{
+    text-align: center;
+}
+.logo{
+    margin-left: 40px;
+    font-size: x-large;
+    font-weight:900;
+}
+.welcomeP1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.welcomeP2{
+    font-weight: 400;
+}
+.review1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+.review{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.carReview{
+    height: 300px;
+    width: 400px;
+}
+.reviewPara{
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.brand-grid img {
+    width: 100%; 
+    height: auto; 
+}
